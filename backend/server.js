@@ -31,3 +31,13 @@ async function close() {
 }
 process.on("SIGINT", close);
 process.on("SIGTERM", close);
+
+app.get("/", (req, res) => {
+  res.status(200).json({
+    success: true,
+    message: "PUBLIXIA API is running",
+    database: mongoose.connection.readyState === 1
+      ? "Connected"
+      : "Disconnected"
+  });
+});
