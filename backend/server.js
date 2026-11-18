@@ -12,8 +12,10 @@ try {
   process.exit(1);
 }
 const app = createApp();
-const server = app.listen(env.port, "127.0.0.1", () =>
-  console.log(`Publixia API: http://localhost:${env.port} · MongoDB connected`),
+const PORT = process.env.PORT || env.port;
+
+const server = app.listen(PORT, "0.0.0.0", () =>
+  console.log(`Publixia API running on 0.0.0.0:${PORT} · MongoDB connected`),
 );
 const stopMail =
   process.env.EMAIL_WORKER_ENABLED === "false" ? () => {} : startEmailWorker();
