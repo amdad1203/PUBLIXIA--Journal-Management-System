@@ -1,0 +1,48 @@
+
+> publixia@1.0.0 test
+> node --test --test-concurrency=1 tests/*.test.js
+
+✔ manuscript subject takes priority and three research profiles select distinct standards (1.4043ms)
+✔ OpenAlex normalizes publication metadata and reconstructs abstracts (1.3973ms)
+✔ provider failure returns explicit service error without fabricated records (0.8558ms)
+✔ supervisor task assignments persist, notify recipients and reject unrelated assignees (2668.5223ms)
+✔ five roles reject retired labels, protect profiles and separate publishing from editorial authority (98.0231ms)
+✔ journal administration and activity enforce assigned scope (192.185ms)
+✔ author workspace preserves modules and references, rejects foreign evidence and stale revisions (406.424ms)
+✔ research plans and active context enforce project access (331.3883ms)
+✔ source imports normalize structured findings and save idempotently; follows are private (217.5345ms)
+✔ AI evidence selection requires consent and source ownership (208.4022ms)
+✔ targeted email delivery only sends explicitly selected jobs (119.4036ms)
+✔ authority criteria require admin, validate input and preserve version history (148.9695ms)
+✔ public catalogs load anonymously; protected APIs reject missing and invalid sessions (35.987ms)
+✔ registration hashes passwords, ignores privileged roles, and queues verification mail (2786.1632ms)
+✔ registration email verification is single use; password reset invalidates existing sessions (2161.9584ms)
+✔ cross-origin writes and administrative privilege escalation are denied (61.4408ms)
+✔ expired JWTs and production demo logins are rejected (90.7614ms)
+✔ create manuscript, reject missing file/submission, upload private version, and enforce ownership (448.7985ms)
+✔ journal-scoped editor permissions, state transitions, reviewer acceptance and review submission (682.1952ms)
+✔ revision requires a new version with response; publication requires human review and publisher access (1387.0722ms)
+✔ AI chat persists, isolates users, and sends authorized context only when selected (89.203ms)
+✔ a second assigned reviewer cannot read another reviewer’s confidential comments (87.1748ms)
+✔ screening requires consent, anchors corrections, preserves originals, and exports valid documents (249.427ms)
+✔ corrections never cascade into new matches and reject overlapping edits (2.083ms)
+✔ Gemini missing configuration and provider failures remain explicit; transient failures retry (527.9089ms)
+✔ projects, tasks, milestones, team feedback and ownership persist (326.497ms)
+✔ library notes and writing studio persist and export; foreign records are inaccessible (200.5695ms)
+✔ course quiz evaluation is server-side and progress remains persistent (155.7221ms)
+✔ conference bookmarks, application tracking and idempotent deadline notifications (260.5662ms)
+✔ notification ownership, read-all, opt-out and email atomic claim/retries (330.2097ms)
+✔ invalid files are rejected before storage (1.2198ms)
+✔ email attempts exhaust at five and stale worker leases are recovered (249.9164ms)
+✔ single-role operational boundaries and audited administrator access (233.0478ms)
+✔ editor and admin operational lists preserve scope and exclude secrets (86.32ms)
+✔ database disconnect returns explicit service-unavailable status (53.9362ms)
+✔ five compact workspaces expose distinct task routes and reject unrelated work (3.0485ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 21496.0228

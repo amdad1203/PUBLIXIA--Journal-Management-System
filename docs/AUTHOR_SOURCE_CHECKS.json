@@ -1,0 +1,224 @@
+[
+  {
+    "kind": "publications",
+    "title": "EXPLICATE: Enhancing Phishing Detection through Explainable AI and LLM-Powered Interpretability",
+    "status": "Source page reached and record identity matched; details retain source-pack attribution",
+    "httpStatus": 200
+  },
+  {
+    "kind": "publications",
+    "title": "Hybrid feature selection with SHAP-based explainable AI for interpretable phishing website detection",
+    "status": "DOI metadata verified with Crossref; source-pack evidence notes require full-text checking",
+    "httpStatus": 200
+  },
+  {
+    "kind": "publications",
+    "title": "EKT-XAI: Efficient Kolmogorov-Arnold Network Transformer for Lightweight Smishing Detection with Explainable AI",
+    "status": "DOI metadata verified with Crossref; source-pack evidence notes require full-text checking",
+    "httpStatus": 200
+  },
+  {
+    "kind": "publications",
+    "title": "Mitigating Cyber Threats: Machine Learning and Explainable AI for Phishing Detection",
+    "status": "DOI metadata verified with Crossref; source-pack evidence notes require full-text checking",
+    "httpStatus": 200
+  },
+  {
+    "kind": "publications",
+    "title": "Explainable AI for phishing URL detection: a Bayesian-optimized stacking ensemble framework with SHAP-guided feature learning",
+    "status": "DOI metadata verified with Crossref; source-pack evidence notes require full-text checking",
+    "httpStatus": 200
+  },
+  {
+    "kind": "publications",
+    "title": "MF2S-CID: A dynamic multi-model framework for scalable and interpretable intrusion detection",
+    "status": "DOI metadata verified with Crossref; source-pack evidence notes require full-text checking",
+    "httpStatus": 200
+  },
+  {
+    "kind": "publications",
+    "title": "An assessment framework for explainable AI with applications to cybersecurity",
+    "status": "DOI metadata verified with Crossref; source-pack evidence notes require full-text checking",
+    "httpStatus": 200
+  },
+  {
+    "kind": "publications",
+    "title": "Explainable AI for Intrusion Detection Systems: LIME and SHAP Applicability on Multi-Layer Perceptron",
+    "status": "DOI metadata verified with Crossref; source-pack evidence notes require full-text checking",
+    "httpStatus": 200
+  },
+  {
+    "kind": "publications",
+    "title": "E-XAI: Evaluating Black-Box Explainable AI Frameworks for Network Intrusion Detection",
+    "status": "DOI metadata verified with Crossref; source-pack evidence notes require full-text checking",
+    "httpStatus": 200
+  },
+  {
+    "kind": "publications",
+    "title": "Energy-Aware Edge Computing Optimization for Real-Time Anomaly Detection in IoT Networks",
+    "status": "DOI metadata verified with Crossref; source-pack evidence notes require full-text checking",
+    "httpStatus": 200
+  },
+  {
+    "kind": "publications",
+    "title": "An explainable feature selection framework for web phishing detection with machine learning",
+    "status": "DOI metadata verified with Crossref; source-pack evidence notes require full-text checking",
+    "httpStatus": 200
+  },
+  {
+    "kind": "publications",
+    "title": "Improved Detection of Malicious Domain Names Using Gradient Boosted Machines and Feature Engineering",
+    "status": "DOI metadata verified with Crossref; source-pack evidence notes require full-text checking",
+    "httpStatus": 200
+  },
+  {
+    "kind": "publications",
+    "title": "Phishing URL Detection in Real-Time: Machine Learning and Deep Learning Approaches on a Custom Threat Intelligence Dataset",
+    "status": "DOI metadata verified with Crossref; source-pack evidence notes require full-text checking",
+    "httpStatus": 200
+  },
+  {
+    "kind": "publications",
+    "title": "EKT-XAI: An Explainable KAN-TransformerFramework for Efficient SMS PhishingClassification",
+    "status": "DOI metadata verified with Crossref; source-pack evidence notes require full-text checking",
+    "httpStatus": 200
+  },
+  {
+    "kind": "researchers",
+    "title": "Associate Senior Lecturer",
+    "status": "Source page reached and record identity matched; details retain source-pack attribution",
+    "httpStatus": 200
+  },
+  {
+    "kind": "researchers",
+    "title": "Research Director",
+    "status": "Source page reached and record identity matched; details retain source-pack attribution",
+    "httpStatus": 200
+  },
+  {
+    "kind": "researchers",
+    "title": "Professor",
+    "status": "Source page reached and record identity matched; details retain source-pack attribution",
+    "httpStatus": 200
+  },
+  {
+    "kind": "researchers",
+    "title": "Senior Associate Professor; Head of Division",
+    "status": "Source page reached and record identity matched; details retain source-pack attribution",
+    "httpStatus": 200
+  },
+  {
+    "kind": "researchers",
+    "title": "Saida Farhat",
+    "status": "Source page reached; record details need manual verification",
+    "httpStatus": 202
+  },
+  {
+    "kind": "researchers",
+    "title": "Senior Lecturer / Reader (use current institutional label)",
+    "status": "Source page reached and record identity matched; details retain source-pack attribution",
+    "httpStatus": 200
+  },
+  {
+    "kind": "researchers",
+    "title": "Norah Alsuqayq",
+    "status": "Source page reached; record details need manual verification",
+    "httpStatus": 200
+  },
+  {
+    "kind": "researchers",
+    "title": "Faculty member (official English page displays Assistant Professor; verify rank before display)",
+    "status": "Source page reached and record identity matched; details retain source-pack attribution",
+    "httpStatus": 200
+  },
+  {
+    "kind": "journals",
+    "title": "IEEE Access",
+    "status": "Source page reached and record identity matched; details retain source-pack attribution",
+    "httpStatus": 200
+  },
+  {
+    "kind": "journals",
+    "title": "Information Technology and Control",
+    "status": "Source page reached and record identity matched; details retain source-pack attribution",
+    "httpStatus": 200
+  },
+  {
+    "kind": "journals",
+    "title": "International Journal of Information Security",
+    "status": "Source page reached; record details need manual verification",
+    "httpStatus": 200
+  },
+  {
+    "kind": "journals",
+    "title": "Frontiers in Artificial Intelligence",
+    "status": "Source page reached and record identity matched; details retain source-pack attribution",
+    "httpStatus": 200
+  },
+  {
+    "kind": "journals",
+    "title": "Journal of King Saud University - Computer and Information Sciences",
+    "status": "Source page reached and record identity matched; details retain source-pack attribution",
+    "httpStatus": 200
+  },
+  {
+    "kind": "journals",
+    "title": "Data Science and Management",
+    "status": "Source supplied; live verification unavailable",
+    "httpStatus": 403
+  },
+  {
+    "kind": "journals",
+    "title": "VFAST Transactions on Software Engineering",
+    "status": "Source page reached and record identity matched; details retain source-pack attribution",
+    "httpStatus": 200
+  },
+  {
+    "kind": "opportunities",
+    "title": "PhD student in Computer Science with focus on cybersecurity and privacy",
+    "status": "Source page reached and record identity matched; details retain source-pack attribution",
+    "httpStatus": 200
+  },
+  {
+    "kind": "opportunities",
+    "title": "PhD Position in Cybersecurity for Decentralised Energy Systems",
+    "status": "Source page reached and record identity matched; details retain source-pack attribution",
+    "httpStatus": 200
+  },
+  {
+    "kind": "opportunities",
+    "title": "Doctoral student in Physical Geography: Remote Sensing of Arctic Landscape Change",
+    "status": "Source page reached and record identity matched; details retain source-pack attribution",
+    "httpStatus": 200
+  },
+  {
+    "kind": "opportunities",
+    "title": "PhD Position F/M: Computer Vision / Deep Learning - Video Generation",
+    "status": "Source page reached and record identity matched; details retain source-pack attribution",
+    "httpStatus": 200
+  },
+  {
+    "kind": "opportunities",
+    "title": "Doctoral student in Computer Science with focus on program transformation",
+    "status": "Source page reached and record identity matched; details retain source-pack attribution",
+    "httpStatus": 200
+  },
+  {
+    "kind": "conferences",
+    "title": "IEEE International Conference on Big Data 2026",
+    "status": "Source page reached and record identity matched; details retain source-pack attribution",
+    "httpStatus": 200
+  },
+  {
+    "kind": "conferences",
+    "title": "ACM Multimedia 2026",
+    "status": "Source page reached and record identity matched; details retain source-pack attribution",
+    "httpStatus": 200
+  },
+  {
+    "kind": "conferences",
+    "title": "NeurIPS 2026",
+    "status": "Source page reached and record identity matched; details retain source-pack attribution",
+    "httpStatus": 200
+  }
+]

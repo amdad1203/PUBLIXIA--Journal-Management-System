@@ -1,0 +1,31 @@
+import mongoose from "mongoose";
+import { env, validateEnv } from "./config/env.js";
+import { connectDB, databaseError } from "./config/db.js";
+import { createApp } from "./app.js";
+import { startEmailWorker } from "./services/notifications.js";
+import { startReminders } from "./jobs/reminders.js";
+try {
+  validateEnv();
+  await connectDB();
+} catch (e) {
+  console.error(e.name?.includes("Mongo") ? databaseError(e) : e.message);
+  process.exit(1);
+}
+const app = createApp();
+const server = app.listen(env.port, "127.0.0.1", () =>
+  console.log(`Publixia API: http://localhost:${env.port} · MongoDB connected`),
+);
+const stopMail =
+  process.env.EMAIL_WORKER_ENABLED === "false" ? () => {} : startEmailWorker();
+const stopReminders = startReminders();
+async function close() {
+  stopMail();
+  stopReminders();
+  server.close(async () => {
+    await mongoose.disconnect();
+    process.exit(0);
+  });
+  setTimeout(() => process.exit(1), 10000).unref();
+}
+process.on("SIGINT", close);
+process.on("SIGTERM", close);

@@ -1,0 +1,37 @@
+{
+  "project": "6af0569f9edb65b4cae39e4d",
+  "journal": "6af0569f9edb65b4cae39e4c",
+  "issue": "6af056a29edb65b4cae39e61",
+  "manuscripts": [
+    {
+      "id": "6af056a09edb65b4cae39e56",
+      "code": "PX-CLASS-01",
+      "status": "draft",
+      "title": "An evaluation protocol for explainable phishing detection"
+    },
+    {
+      "id": "6af056a09edb65b4cae39e57",
+      "code": "PX-CLASS-02",
+      "status": "screening",
+      "title": "Reporting checklist for leakage-resistant URL classification"
+    },
+    {
+      "id": "6af056a19edb65b4cae39e59",
+      "code": "PX-CLASS-03",
+      "status": "under_review",
+      "title": "Evidence extraction protocol for phishing explanation studies"
+    },
+    {
+      "id": "6af056a19edb65b4cae39e5b",
+      "code": "PX-CLASS-04",
+      "status": "revision",
+      "title": "Threats to validity in explanation-stability comparisons"
+    },
+    {
+      "id": "6af056a19edb65b4cae39e5e",
+      "code": "PX-CLASS-05",
+      "status": "proofreading",
+      "title": "Reproducibility checklist for security classification protocols"
+    }
+  ]
+}

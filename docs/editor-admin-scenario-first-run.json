@@ -1,0 +1,39 @@
+{
+  "created": {
+    "Issue": 1,
+    "Manuscript": 6,
+    "Version": 6,
+    "Assignment": 6,
+    "Review": 6,
+    "Audit": 6,
+    "ManuscriptFile": 3
+  },
+  "reused": {},
+  "membershipsAdded": 0,
+  "errors": [],
+  "before": {
+    "users": 52,
+    "journals": 21,
+    "manuscripts": 85,
+    "reviews": 74
+  },
+  "editorVisibleManuscripts": 31,
+  "existingStages": {
+    "copyediting": 1,
+    "draft": 2,
+    "published": 17,
+    "submitted": 1,
+    "typesetting": 2,
+    "accepted": 2,
+    "proofreading": 1,
+    "revision": 1,
+    "screening": 1,
+    "under_review": 3
+  },
+  "after": {
+    "users": 52,
+    "journals": 21,
+    "manuscripts": 91,
+    "reviews": 80
+  }
+}

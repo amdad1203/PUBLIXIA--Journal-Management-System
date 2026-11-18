@@ -1,0 +1,56 @@
+[
+  {
+    "role": "researcher",
+    "email": "labibafnanbb2004@gmail.com",
+    "login": 200,
+    "papers": 14,
+    "documents": 3,
+    "briefings": 3,
+    "enrollments": 3
+  },
+  {
+    "role": "supervisor",
+    "email": "amdadul019710@gmail.com",
+    "login": 200,
+    "papers": 14,
+    "documents": 3,
+    "briefings": 3,
+    "enrollments": 3
+  },
+  {
+    "role": "reviewer",
+    "email": "rocklevi96@gmail.com",
+    "login": 200,
+    "papers": 14,
+    "documents": 3,
+    "briefings": 3,
+    "enrollments": 3
+  },
+  {
+    "role": "editor",
+    "email": "amdadboss11@gmail.com",
+    "login": 200,
+    "papers": 14,
+    "documents": 3,
+    "briefings": 3,
+    "enrollments": 3
+  },
+  {
+    "role": "publisher",
+    "email": "mimma9087mim@gmail.com",
+    "login": 200,
+    "papers": 14,
+    "documents": 3,
+    "briefings": 3,
+    "enrollments": 3
+  },
+  {
+    "role": "admin",
+    "email": "amdadulhaque1203@gmail.com",
+    "login": 200,
+    "papers": 14,
+    "documents": 3,
+    "briefings": 3,
+    "enrollments": 3
+  }
+]

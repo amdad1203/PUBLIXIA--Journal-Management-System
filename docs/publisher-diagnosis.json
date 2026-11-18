@@ -1,0 +1,342 @@
+{
+  "at": "2026-11-15T05:36:01.575Z",
+  "journals": [
+    {
+      "_id": "6aee03579edb65b4cae222d6",
+      "slug": "demo-0",
+      "name": "Journal of Computer Vision Research"
+    },
+    {
+      "_id": "6aee03579edb65b4cae222d7",
+      "slug": "demo-1",
+      "name": "Journal of Cybersecurity Research"
+    },
+    {
+      "_id": "6aee03579edb65b4cae222e0",
+      "slug": "demo-10",
+      "name": "Journal of Public Health Research"
+    },
+    {
+      "_id": "6aeef7199edb65b4cae356b1",
+      "slug": "publixia-team-research",
+      "name": "Publixia Research Methods"
+    },
+    {
+      "_id": "6af0569f9edb65b4cae39e4c",
+      "slug": "publixia-practice-and-methods",
+      "name": "Publixia Research Practice and Methods"
+    }
+  ],
+  "rows": [
+    {
+      "id": "6aee0371f39a6d4a8fc85caf",
+      "code": "PX-DEMO-0061",
+      "synthetic": true,
+      "status": "copyediting",
+      "handoff": false,
+      "currentVersion": 1,
+      "versionExists": true,
+      "decisions": 0,
+      "authorDemo": true,
+      "proofs": [],
+      "quality": false
+    },
+    {
+      "id": "6aee0359f39a6d4a8fc85b83",
+      "code": "PX-DEMO-0001",
+      "synthetic": true,
+      "status": "published",
+      "handoff": false,
+      "currentVersion": 1,
+      "versionExists": true,
+      "decisions": 0,
+      "authorDemo": true,
+      "proofs": [],
+      "quality": false
+    },
+    {
+      "id": "6aee035ef39a6d4a8fc85bbf",
+      "code": "PX-DEMO-0013",
+      "synthetic": true,
+      "status": "published",
+      "handoff": false,
+      "currentVersion": 1,
+      "versionExists": true,
+      "decisions": 0,
+      "authorDemo": true,
+      "proofs": [],
+      "quality": false
+    },
+    {
+      "id": "6aee0363f39a6d4a8fc85bfb",
+      "code": "PX-DEMO-0025",
+      "synthetic": true,
+      "status": "published",
+      "handoff": false,
+      "currentVersion": 1,
+      "versionExists": true,
+      "decisions": 0,
+      "authorDemo": true,
+      "proofs": [],
+      "quality": false
+    },
+    {
+      "id": "6aee0368f39a6d4a8fc85c37",
+      "code": "PX-DEMO-0037",
+      "synthetic": true,
+      "status": "published",
+      "handoff": false,
+      "currentVersion": 1,
+      "versionExists": true,
+      "decisions": 0,
+      "authorDemo": true,
+      "proofs": [],
+      "quality": false
+    },
+    {
+      "id": "6aee036cf39a6d4a8fc85c73",
+      "code": "PX-DEMO-0049",
+      "synthetic": true,
+      "status": "published",
+      "handoff": false,
+      "currentVersion": 1,
+      "versionExists": true,
+      "decisions": 0,
+      "authorDemo": true,
+      "proofs": [],
+      "quality": false
+    },
+    {
+      "id": "6aee0359f39a6d4a8fc85b88",
+      "code": "PX-DEMO-0002",
+      "synthetic": true,
+      "status": "published",
+      "handoff": false,
+      "currentVersion": 1,
+      "versionExists": true,
+      "decisions": 0,
+      "authorDemo": true,
+      "proofs": [],
+      "quality": false
+    },
+    {
+      "id": "6aee035ef39a6d4a8fc85bc4",
+      "code": "PX-DEMO-0014",
+      "synthetic": true,
+      "status": "published",
+      "handoff": false,
+      "currentVersion": 1,
+      "versionExists": true,
+      "decisions": 0,
+      "authorDemo": true,
+      "proofs": [],
+      "quality": false
+    },
+    {
+      "id": "6aee0363f39a6d4a8fc85c00",
+      "code": "PX-DEMO-0026",
+      "synthetic": true,
+      "status": "published",
+      "handoff": false,
+      "currentVersion": 1,
+      "versionExists": true,
+      "decisions": 0,
+      "authorDemo": true,
+      "proofs": [],
+      "quality": false
+    },
+    {
+      "id": "6aee0368f39a6d4a8fc85c3c",
+      "code": "PX-DEMO-0038",
+      "synthetic": true,
+      "status": "published",
+      "handoff": false,
+      "currentVersion": 1,
+      "versionExists": true,
+      "decisions": 0,
+      "authorDemo": true,
+      "proofs": [],
+      "quality": false
+    },
+    {
+      "id": "6aee036df39a6d4a8fc85c78",
+      "code": "PX-DEMO-0050",
+      "synthetic": true,
+      "status": "published",
+      "handoff": false,
+      "currentVersion": 1,
+      "versionExists": true,
+      "decisions": 0,
+      "authorDemo": true,
+      "proofs": [],
+      "quality": false
+    },
+    {
+      "id": "6aee035df39a6d4a8fc85bb5",
+      "code": "PX-DEMO-0011",
+      "synthetic": true,
+      "status": "published",
+      "handoff": false,
+      "currentVersion": 1,
+      "versionExists": true,
+      "decisions": 0,
+      "authorDemo": true,
+      "proofs": [],
+      "quality": false
+    },
+    {
+      "id": "6aee0362f39a6d4a8fc85bf1",
+      "code": "PX-DEMO-0023",
+      "synthetic": true,
+      "status": "published",
+      "handoff": false,
+      "currentVersion": 1,
+      "versionExists": true,
+      "decisions": 0,
+      "authorDemo": true,
+      "proofs": [],
+      "quality": false
+    },
+    {
+      "id": "6aee0367f39a6d4a8fc85c2d",
+      "code": "PX-DEMO-0035",
+      "synthetic": true,
+      "status": "published",
+      "handoff": false,
+      "currentVersion": 1,
+      "versionExists": true,
+      "decisions": 0,
+      "authorDemo": true,
+      "proofs": [],
+      "quality": false
+    },
+    {
+      "id": "6aee036bf39a6d4a8fc85c69",
+      "code": "PX-DEMO-0047",
+      "synthetic": true,
+      "status": "published",
+      "handoff": false,
+      "currentVersion": 1,
+      "versionExists": true,
+      "decisions": 0,
+      "authorDemo": true,
+      "proofs": [],
+      "quality": false
+    },
+    {
+      "id": "6aee0371f39a6d4a8fc85ca5",
+      "code": "PX-DEMO-0059",
+      "synthetic": true,
+      "status": "published",
+      "handoff": false,
+      "currentVersion": 1,
+      "versionExists": true,
+      "decisions": 0,
+      "authorDemo": true,
+      "proofs": [],
+      "quality": false
+    },
+    {
+      "id": "6af942199edb65b4cae5b18b",
+      "code": "PX-SUP-003",
+      "synthetic": false,
+      "status": "accepted",
+      "editorial": "accepted",
+      "production": "queued",
+      "publication": "not_published",
+      "handoff": true,
+      "acceptedVersion": 1,
+      "currentVersion": 1,
+      "versionExists": true,
+      "decisions": 1,
+      "authorDemo": true,
+      "proofs": [],
+      "quality": false
+    },
+    {
+      "id": "6af9421a9edb65b4cae5b190",
+      "code": "PX-SUP-004",
+      "synthetic": false,
+      "status": "accepted",
+      "editorial": "accepted",
+      "production": "proof_sent",
+      "publication": "not_published",
+      "handoff": true,
+      "acceptedVersion": 1,
+      "currentVersion": 1,
+      "versionExists": true,
+      "decisions": 1,
+      "authorDemo": true,
+      "proofs": [
+        {
+          "_id": "6af9421b9edb65b4cae5b194",
+          "sentAt": "2026-11-10T08:00:00.000Z",
+          "state": "sent",
+          "version": 1
+        }
+      ],
+      "quality": false
+    },
+    {
+      "id": "6af056a19edb65b4cae39e5e",
+      "code": "PX-CLASS-05",
+      "synthetic": false,
+      "status": "proofreading",
+      "handoff": false,
+      "currentVersion": 1,
+      "versionExists": true,
+      "decisions": 0,
+      "authorDemo": false,
+      "proofs": [],
+      "quality": false
+    },
+    {
+      "id": "6af9421b9edb65b4cae5b196",
+      "code": "PX-SUP-005",
+      "synthetic": false,
+      "status": "published",
+      "editorial": "accepted",
+      "production": "published",
+      "publication": "published",
+      "handoff": true,
+      "acceptedVersion": 1,
+      "currentVersion": 1,
+      "versionExists": true,
+      "decisions": 1,
+      "authorDemo": true,
+      "proofs": [
+        {
+          "_id": "6af9421c9edb65b4cae5b19b",
+          "sentAt": "2026-11-10T08:00:00.000Z",
+          "state": "approved",
+          "version": 1
+        }
+      ],
+      "quality": true
+    },
+    {
+      "id": "6af9421c9edb65b4cae5b19d",
+      "code": "PX-SUP-006",
+      "synthetic": false,
+      "status": "published",
+      "editorial": "accepted",
+      "production": "published",
+      "publication": "published",
+      "handoff": true,
+      "acceptedVersion": 1,
+      "currentVersion": 1,
+      "versionExists": true,
+      "decisions": 1,
+      "authorDemo": true,
+      "proofs": [
+        {
+          "_id": "6af9421d9edb65b4cae5b1a1",
+          "sentAt": "2026-11-10T08:00:00.000Z",
+          "state": "approved",
+          "version": 1
+        }
+      ],
+      "quality": true
+    }
+  ]
+}

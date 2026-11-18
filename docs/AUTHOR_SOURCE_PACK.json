@@ -1,0 +1,827 @@
+{
+  "metadata": {
+    "product": "PUBLIXIA",
+    "dataset_name": "Verified author-workspace seed records",
+    "prepared_at": "2026-11-08",
+    "policy": "Do not fabricate scholarly metadata, people, affiliations, achievements, metrics, fees, or deadlines. Keep source URLs and verification timestamps.",
+    "content_note": "Structured records include detailed abstract-level summaries for six high-priority works. Remaining entries are deliberately marked metadata-only or partial where the source record has not yet been fully inspected."
+  },
+  "publications": [
+    {
+      "id": "work-hybrid-shap-phishing-2026",
+      "title": "Hybrid feature selection with SHAP-based explainable AI for interpretable phishing website detection",
+      "authors": [
+        "Norah Alsuqayq",
+        "Areej Alhogail",
+        "Abdulrahman Mirza"
+      ],
+      "year": 2026,
+      "publication_date": "2026-09-30",
+      "venue": "Journal of King Saud University - Computer and Information Sciences",
+      "volume": "38",
+      "article_number": "894",
+      "doi": "10.1007/s44443-026-01281-6",
+      "type": "journal-article",
+      "status": "version-of-record",
+      "summary": "The paper proposes a phishing website detection framework combining hybrid feature selection and explainable AI. The publisher abstract identifies interpretability, redundant feature representations, and evaluation practices that can produce overly optimistic estimates as concerns.",
+      "tags": [
+        "phishing detection",
+        "feature selection",
+        "SHAP",
+        "explainable AI",
+        "cybersecurity"
+      ],
+      "source_url": "https://link.springer.com/article/10.1007/s44443-026-01281-6",
+      "verification": "publisher-version-of-record-and-abstract-verified; detailed metric values should be imported from article tables",
+      "research_problem": "Phishing website classifiers can perform well while remaining difficult to interpret; redundant feature sets and evaluation leakage can also produce overly optimistic estimates.",
+      "methodology": {
+        "feature_selection": [
+          "Mutual Information",
+          "Chi-square",
+          "SHAP-based feature importance"
+        ],
+        "classifiers": [
+          "Decision Tree",
+          "Random Forest",
+          "XGBoost",
+          "LightGBM",
+          "CatBoost"
+        ],
+        "datasets": [
+          "PhiUSIIL phishing dataset",
+          "External URL-only Mendeley dataset"
+        ],
+        "evaluation": "10-fold stratified cross-validation; feature selection carried out independently inside each fold.",
+        "additional_analyses": [
+          "Feature stability assessment",
+          "Feature ablation",
+          "Worst-case feature perturbation sensitivity analysis"
+        ]
+      },
+      "findings": "The authors report a substantial reduction in feature dimensionality while maintaining predictive performance comparable to use of all features. The publisher abstract does not provide a single universal accuracy value; do not invent one.",
+      "limitations_and_review_fields": [
+        "Inspect full-text author-stated limitations.",
+        "Record dataset provenance, collection period, class balance, feature extraction, external-validation protocol, and any limitations reported by the authors."
+      ],
+      "relevance": "High relevance to explainable phishing detection, leakage-aware feature selection, and cross-dataset evaluation.",
+      "license": "CC BY-NC-ND 4.0 stated on the publisher page; verify third-party figure rights before reuse."
+    },
+    {
+      "id": "work-mf2s-cid-2025",
+      "title": "MF2S-CID: A dynamic multi-model framework for scalable and interpretable intrusion detection",
+      "authors": [
+        "Saida Farhat",
+        "Ahmed Patel",
+        "Ana Luiza Bessa Barros",
+        "Alwi M. Bamhdi"
+      ],
+      "year": 2025,
+      "venue": "International Journal of Information Security",
+      "volume": "24",
+      "issue": "4",
+      "article_number": "165",
+      "doi": "10.1007/s10207-025-01077-1",
+      "type": "journal-article",
+      "status": "version-of-record",
+      "summary": "A journal article about a dynamic multi-model framework for scalable and interpretable intrusion detection. Import the detailed methods and findings only after reviewing the publisher full text.",
+      "tags": [
+        "intrusion detection",
+        "multi-model framework",
+        "interpretability",
+        "cybersecurity"
+      ],
+      "source_url": "https://dblp.org/rec/journals/ijisec/FarhatPBB25.html",
+      "publisher_url": "https://doi.org/10.1007/s10207-025-01077-1",
+      "verification": "version-of-record bibliographic metadata verified through DBLP and DOI; full-text evidence extraction pending",
+      "research_problem": "The work concerns scalable and interpretable intrusion detection using a dynamic multi-model framework.",
+      "methodology": "Not expanded from the title alone. Retrieve the publisher full text before storing model-selection logic, datasets, feature engineering, validation design, or hyperparameters.",
+      "findings": "Not transcribed in this seed pack. Import the exact abstract and result tables from the publisher record before populating empirical findings.",
+      "limitations_and_review_fields": [
+        "Record the evaluated attack classes and datasets.",
+        "Check class imbalance, split strategy, external validation, inference overhead, model-selection overhead, reproducibility and data availability."
+      ],
+      "relevance": "Intrusion-detection architecture, adaptive model selection, scalability and interpretability."
+    },
+    {
+      "id": "work-explicate-2025",
+      "title": "EXPLICATE: Enhancing Phishing Detection through Explainable AI and LLM-Powered Interpretability",
+      "authors": [
+        "Bryan Lim",
+        "Roman Huerta",
+        "Alejandro Sotelo",
+        "Anthonie Quintela",
+        "Priyanka Kumar"
+      ],
+      "year": 2025,
+      "publication_date": "2025-03-22",
+      "venue": "arXiv",
+      "repository_id": "2503.20796",
+      "type": "preprint",
+      "status": "preprint",
+      "summary": "The authors describe an ML phishing classifier, a dual LIME/SHAP explanation layer, and an LLM layer using DeepSeek V3 to translate technical explanations into natural language. The abstract reports author-reported accuracy and explanation-quality metrics.",
+      "tags": [
+        "phishing detection",
+        "LIME",
+        "SHAP",
+        "LLM",
+        "explainability"
+      ],
+      "source_url": "https://arxiv.org/abs/2503.20796",
+      "verification": "arXiv repository record verified; metrics are author-reported preprint claims",
+      "research_problem": "Make phishing-classification decisions understandable to security analysts and end users rather than presenting a black-box label.",
+      "methodology": "Three components: domain-feature ML classifier; dual explanation using LIME and SHAP; and a DeepSeek V3 language-model layer that turns technical feature explanations into natural language.",
+      "findings": {
+        "author_reported_accuracy": "98.4%",
+        "author_reported_explanation_quality": "94.2%",
+        "author_reported_explanation_consistency": "96.8%",
+        "note": "All figures are claims reported in the preprint abstract; retain the preprint label and evaluate the experimental protocol before treating them as benchmarks."
+      },
+      "limitations_and_review_fields": [
+        "Check external validation and dataset diversity.",
+        "Assess explanation faithfulness and stability.",
+        "Review how explanation quality and consistency were measured, and whether user studies were performed."
+      ]
+    },
+    {
+      "id": "work-energy-edge-iot-2025",
+      "title": "Energy-Aware Edge Computing Optimization for Real-Time Anomaly Detection in IoT Networks",
+      "authors": [
+        "Chunhe Ni",
+        "Jiang Wu",
+        "Hongbo Wang"
+      ],
+      "year": 2025,
+      "publication_date": "2025-04-24",
+      "venue": "Applied and Computational Engineering",
+      "volume": "139",
+      "pages": "42-53",
+      "doi": "10.54254/2755-2721/2025.22280",
+      "type": "journal-article",
+      "status": "publisher-article",
+      "summary": "The publisher abstract describes energy modelling, adaptive resource allocation, lightweight ML, and offloading across 16 heterogeneous edge devices. It reports author-stated energy and detection-performance results; data are available from the authors upon reasonable request.",
+      "tags": [
+        "edge computing",
+        "IoT",
+        "anomaly detection",
+        "energy optimisation",
+        "resource allocation"
+      ],
+      "source_url": "https://ace.ewapub.com/article/view/22280",
+      "verification": "publisher record and abstract verified; quantitative values are author-reported",
+      "research_problem": "Maintain real-time anomaly detection in resource-constrained IoT edge environments while reducing energy consumption.",
+      "methodology": "The abstract describes a calibrated energy model for heterogeneous edge devices, adaptive resource allocation, lightweight machine learning, and computation offloading. The reported testbed contains 16 heterogeneous edge devices.",
+      "findings": {
+        "author_reported_energy_reduction": "23.8%",
+        "author_reported_detection_accuracy": "above 92.5%",
+        "author_reported_battery_life_extension": "up to 165% in selected energy-constrained scenarios",
+        "note": "Values are reported by the authors in the publisher abstract; preserve the testbed and comparison context."
+      },
+      "data_availability": "The publisher states that analysed datasets are available from the authors upon reasonable request.",
+      "limitations_and_review_fields": [
+        "Inspect device heterogeneity and traffic composition.",
+        "Check baseline configuration, repeatability, latency and energy measurement procedures.",
+        "Assess external generalisability beyond the 16-device testbed."
+      ]
+    },
+    {
+      "id": "work-mitigating-cyber-threats-2025",
+      "title": "Mitigating Cyber Threats: Machine Learning and Explainable AI for Phishing Detection",
+      "authors": [
+        "Hafiz Muhammad Usman Akhtar",
+        "Muhammad Nauman",
+        "Nadeem Akhtar",
+        "Muhammad Hameed",
+        "Shakir Hameed",
+        "Muhammad Zeshan Tareen"
+      ],
+      "year": 2025,
+      "publication_date": "2025-06-18",
+      "venue": "VFAST Transactions on Software Engineering",
+      "volume": "13",
+      "issue": "2",
+      "pages": "170-195",
+      "doi": "10.21015/vtse.v13i2.2129",
+      "type": "journal-article",
+      "status": "publisher-article",
+      "summary": "The publisher abstract lists XGBoost, LightGBM, Random Forest, KNN, Twin SVM, and CNN evaluated on four public datasets, with LIME for interpretability. The abstract reports XGBoost accuracy of 99.65%.",
+      "tags": [
+        "phishing detection",
+        "XGBoost",
+        "LIME",
+        "machine learning",
+        "cybersecurity"
+      ],
+      "source_url": "https://vfast.org/journals/index.php/VTSE/article/view/2129",
+      "verification": "publisher article record and abstract verified; metric is author-reported",
+      "research_problem": "Combine phishing detection with explanations of how the model reaches its classification decision.",
+      "methodology": "The publisher abstract identifies XGBoost, LightGBM, Random Forest, k-nearest neighbours, Twin Support Vector Machine, and convolutional neural networks evaluated on four public datasets; LIME is used for explanation.",
+      "findings": {
+        "author_reported_best_accuracy": "99.65%",
+        "model": "XGBoost",
+        "note": "Author-reported abstract value; retain the four-dataset and protocol context and confirm exact per-dataset results in the paper."
+      },
+      "limitations_and_review_fields": [
+        "Check identities and provenance of the four datasets.",
+        "Review leakage controls, split strategy, class balance, external validation and explanation stability."
+      ]
+    },
+    {
+      "id": "work-ekt-xai-2026-journal",
+      "title": "EKT-XAI: Efficient Kolmogorov-Arnold Network Transformer for Lightweight Smishing Detection with Explainable AI",
+      "authors": [
+        "Razan Ali Obeidat",
+        "Bajeszeyadaljunaeidia",
+        "Islam S. Fathi",
+        "Mohammed Tawfik"
+      ],
+      "year": 2026,
+      "publication_date": "2026-03-15",
+      "venue": "Statistics, Optimization & Information Computing",
+      "volume": "15",
+      "issue": "6",
+      "pages": "5111-5134",
+      "doi": "10.19139/soic-2310-5070-2923",
+      "type": "journal-article",
+      "status": "publisher-article",
+      "summary": "The publisher abstract describes KAN layers in a transformer for SMS phishing detection, with attention visualisation, LIME, KAN activation analysis, and decision-path tracing. The abstract identifies SMS Spam Collection and SMS Phishing datasets and reports author-stated results.",
+      "tags": [
+        "smishing",
+        "SMS phishing",
+        "KAN",
+        "transformer",
+        "explainable AI"
+      ],
+      "source_url": "https://iapress.org/index.php/soic/article/view/2923",
+      "verification": "publisher record and abstract verified; metrics are author-reported",
+      "research_problem": "Detect SMS phishing while making model decisions interpretable and keeping inference efficient for mobile deployment.",
+      "methodology": "KAN layers are integrated into a transformer architecture. The abstract describes attention visualisation, LIME attribution, KAN activation-pattern analysis and decision-path tracing. Evaluation uses the SMS Spam Collection (5,574 messages) and SMS Phishing Dataset (5,971 messages).",
+      "findings": {
+        "author_reported_accuracy_sms_spam_collection": "99.99%",
+        "author_reported_accuracy_sms_phishing_dataset": "99.89%",
+        "note": "The abstract also reports ablation improvements for KAN layers and attention. Keep all metrics linked to the dataset and protocol, not as a generic model badge."
+      },
+      "limitations_and_review_fields": [
+        "Inspect dataset construction, duplicates, contamination and split design.",
+        "Check latency, model size, device-level energy use and mobile hardware validation.",
+        "Review comparisons with baseline systems and robustness to newly emerging smishing messages."
+      ],
+      "version_note": "This publisher article is separate from the earlier differently titled Research Square preprint record in this seed set. Do not merge the records without a confirmed version-history link."
+    },
+    {
+      "id": "work-xai-phishing-url-frontiers-2026",
+      "title": "Explainable AI for phishing URL detection: a Bayesian-optimized stacking ensemble framework with SHAP-guided feature learning",
+      "authors": [],
+      "year": 2026,
+      "venue": "Frontiers in Artificial Intelligence",
+      "doi": "10.3389/frai.2026.1854934",
+      "type": "journal-article",
+      "status": "publisher-record",
+      "summary": "Publisher page for a 2026 phishing URL detection paper using a Bayesian-optimised stacking ensemble and SHAP-guided feature learning. Populate authors, abstract, and results directly from the publisher page before public display.",
+      "tags": [
+        "phishing URL detection",
+        "Bayesian optimisation",
+        "stacking ensemble",
+        "SHAP"
+      ],
+      "source_url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1854934/full",
+      "verification": "publisher-record-found; complete metadata import required"
+    },
+    {
+      "id": "work-xai-assessment-cyber-2025",
+      "title": "An assessment framework for explainable AI with applications to cybersecurity",
+      "authors": [
+        "Maria Carla Calzarossa",
+        "Paolo Giudici",
+        "Rasha Zieni"
+      ],
+      "year": 2025,
+      "venue": "Artificial Intelligence Review",
+      "volume": "58",
+      "article_number": "150",
+      "doi": "10.1007/s10462-025-11141-w",
+      "type": "journal-article",
+      "status": "publisher-article",
+      "summary": "The publisher abstract describes a framework for comparing explainable-AI methods in terms of complexity and robustness, tested in an application to phishing website detection.",
+      "tags": [
+        "explainable AI",
+        "cybersecurity",
+        "phishing",
+        "robustness",
+        "explanation assessment"
+      ],
+      "source_url": "https://link.springer.com/article/10.1007/s10462-025-11141-w",
+      "verification": "publisher-record-and-abstract-verified"
+    },
+    {
+      "id": "work-lime-shap-ids-ieee-2024",
+      "title": "Explainable AI for Intrusion Detection Systems: LIME and SHAP Applicability on Multi-Layer Perceptron",
+      "authors": [],
+      "year": 2024,
+      "venue": "IEEE Access",
+      "doi": "10.1109/ACCESS.2024.3368377",
+      "type": "journal-article",
+      "status": "metadata-record",
+      "summary": "An IEEE Access article on applying LIME and SHAP to a multilayer-perceptron intrusion-detection system. Complete author list and paper-level details should be imported from IEEE Xplore.",
+      "tags": [
+        "intrusion detection",
+        "LIME",
+        "SHAP",
+        "MLP",
+        "explainable AI"
+      ],
+      "source_url": "https://ieeexplore.ieee.org/document/10440604",
+      "verification": "DOI/title metadata identified; full IEEE metadata import required"
+    },
+    {
+      "id": "work-e-xai-ids-ieee-2024",
+      "title": "E-XAI: Evaluating Black-Box Explainable AI Frameworks for Network Intrusion Detection",
+      "authors": [
+        "O. Arreche",
+        "T. R. Guntur",
+        "J. W. Roberts",
+        "M. Abdallah"
+      ],
+      "year": 2024,
+      "venue": "IEEE Access",
+      "doi": "10.1109/ACCESS.2024.3365140",
+      "type": "journal-article",
+      "status": "metadata-record",
+      "summary": "An IEEE Access article record on evaluating black-box explainable-AI frameworks for network intrusion detection. Confirm the complete author names, abstract, and detailed results against the IEEE publisher page.",
+      "tags": [
+        "network intrusion detection",
+        "XAI evaluation",
+        "black-box models"
+      ],
+      "source_url": "https://doi.org/10.1109/ACCESS.2024.3365140",
+      "verification": "bibliographic-record-identified; verify publisher details"
+    },
+    {
+      "id": "work-explainable-feature-selection-phishing-2025",
+      "title": "An explainable feature selection framework for web phishing detection with machine learning",
+      "authors": [],
+      "year": 2025,
+      "venue": "Data Science and Management",
+      "doi": "10.1016/j.dsm.2024.08.004",
+      "type": "journal-article",
+      "status": "metadata-record",
+      "summary": "A publisher record on explainable feature selection for machine-learning-based web phishing detection. Import author order and full abstract from ScienceDirect before showing detailed results.",
+      "tags": [
+        "web phishing",
+        "feature selection",
+        "machine learning",
+        "explainability"
+      ],
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S2666764924000419",
+      "verification": "DOI/title metadata identified; full publisher metadata import required"
+    },
+    {
+      "id": "work-malicious-domain-gradient-boosting-2022",
+      "title": "Improved Detection of Malicious Domain Names Using Gradient Boosted Machines and Feature Engineering",
+      "authors": [
+        "Areej Alhogail",
+        "Isra Al-Turaiki"
+      ],
+      "year": 2022,
+      "venue": "Information Technology and Control",
+      "volume": "51",
+      "issue": "2",
+      "doi": "10.5755/j01.itc.51.2.30380",
+      "type": "journal-article",
+      "status": "publisher-record",
+      "summary": "Research on malicious-domain detection using gradient-boosted machine learning and feature engineering.",
+      "tags": [
+        "malicious domains",
+        "gradient boosting",
+        "feature engineering",
+        "cybersecurity"
+      ],
+      "source_url": "https://itc.ktu.lt/index.php/ITC/article/view/30380",
+      "verification": "institution-profile-and-publisher-record-identified"
+    },
+    {
+      "id": "work-phishing-url-real-time-2026",
+      "title": "Phishing URL Detection in Real-Time: Machine Learning and Deep Learning Approaches on a Custom Threat Intelligence Dataset",
+      "authors": [],
+      "year": 2026,
+      "venue": "Procedia Computer Science",
+      "doi": "10.1016/j.procs.2026.06.541",
+      "type": "proceedings-article",
+      "status": "publisher-record",
+      "summary": "A publisher article record on real-time phishing URL detection using machine-learning and deep-learning approaches on a custom threat-intelligence dataset. Populate complete metadata and exact evaluation details from ScienceDirect.",
+      "tags": [
+        "phishing URL",
+        "threat intelligence",
+        "machine learning",
+        "deep learning"
+      ],
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S1877050926021745",
+      "verification": "publisher-record-identified; full metadata import required"
+    },
+    {
+      "id": "work-ekt-xai-preprint-2026",
+      "title": "EKT-XAI: An Explainable KAN-Transformer Framework for Efficient SMS Phishing Classification",
+      "authors": [
+        "Mohammed Tawfik",
+        "Eman Abdulrahman Alkhamali",
+        "Bajes Zeyad Aljunaeidia",
+        "Amr H. Abdelhaliem",
+        "Islam S. Fathi"
+      ],
+      "year": 2026,
+      "venue": "Research Square",
+      "doi": "10.21203/rs.3.rs-8690788/v1",
+      "type": "preprint",
+      "status": "preprint",
+      "summary": "An earlier/differently titled EKT-XAI preprint record. Keep separate from the later publisher-hosted journal article until a formal version relationship is established.",
+      "tags": [
+        "SMS phishing",
+        "KAN",
+        "transformer",
+        "explainable AI",
+        "preprint"
+      ],
+      "source_url": "https://doi.org/10.21203/rs.3.rs-8690788/v1",
+      "verification": "preprint-identifier-supplied-and-indexed; verify exact repository author metadata before import"
+    }
+  ],
+  "researchers": [
+    {
+      "id": "person-antitza-dantcheva",
+      "name": "Antitza Dantcheva",
+      "title": "Research Director",
+      "institution": "Inria Centre at Universite Cote d'Azur",
+      "group": "STARS",
+      "areas": [
+        "computer vision",
+        "generative models",
+        "human-centred video generation",
+        "deepfake detection",
+        "privacy"
+      ],
+      "profile_url": "https://www-sop.inria.fr/members/Antitza.Dantcheva/",
+      "profile_status": "institution-verified",
+      "related_opportunity_id": "opp-inria-video-generation-2026",
+      "verified_activity": [
+        "3IA Cote d'Azur Chair",
+        "Program Chair of ACM Multimedia 2026",
+        "Official profile lists accepted NeurIPS 2026 and WACV 2027 work"
+      ]
+    },
+    {
+      "id": "person-jakob-assmann",
+      "name": "Jakob Assmann",
+      "title": "Associate Senior Lecturer",
+      "institution": "University of Gothenburg",
+      "department": "Department of Earth Sciences",
+      "areas": [
+        "spatial ecology",
+        "remote sensing",
+        "Arctic change",
+        "tundra landscape",
+        "vegetation change",
+        "plant diversity"
+      ],
+      "profile_url": "https://www.gu.se/en/about/find-staff/jakobassmann",
+      "profile_status": "institution-verified",
+      "related_opportunity_id": "opp-gothenburg-arctic-rs-2026"
+    },
+    {
+      "id": "person-mikael-asplund",
+      "name": "Mikael Asplund",
+      "title": "Senior Associate Professor; Head of Division",
+      "institution": "Linkoping University",
+      "department": "Department of Computer and Information Science; Cybersecurity",
+      "orcid": "0000-0003-1916-3398",
+      "areas": [
+        "cyber-physical systems",
+        "formal methods",
+        "smart grids",
+        "transportation systems",
+        "autonomous systems",
+        "protocol security"
+      ],
+      "profile_url": "https://liu.se/en/employee/mikas34",
+      "profile_status": "institution-verified",
+      "related_opportunity_id": "opp-liu-energy-cyber-2026"
+    },
+    {
+      "id": "person-niklas-carlsson",
+      "name": "Niklas Carlsson",
+      "title": "Professor",
+      "institution": "Linkoping University",
+      "department": "Department of Computer and Information Science; Cybersecurity",
+      "areas": [
+        "distributed systems",
+        "networks",
+        "network security",
+        "mixed reality",
+        "performance modelling",
+        "interactive streaming"
+      ],
+      "profile_url": "https://liu.se/en/employee/nikca89",
+      "profile_status": "institution-verified",
+      "related_opportunity_id": "opp-liu-vr-privacy-2027"
+    },
+    {
+      "id": "person-christoph-reichenbach",
+      "name": "Christoph Reichenbach",
+      "title": "Senior Lecturer / Reader (use current institutional label)",
+      "institution": "Lund University",
+      "department": "Department of Computer Science; Faculty of Engineering",
+      "orcid": "0000-0003-0608-7023",
+      "areas": [
+        "program analysis",
+        "static analysis",
+        "bug detection",
+        "software security",
+        "compilers",
+        "refactoring",
+        "domain-specific languages"
+      ],
+      "profile_url": "https://portal.research.lu.se/en/persons/christoph-reichenbach/",
+      "profile_status": "institution-verified",
+      "related_opportunity_id": "opp-lund-program-transform-2026"
+    },
+    {
+      "id": "person-areej-alhogail",
+      "name": "Areej Alhogail",
+      "title": "Faculty member (official English page displays Assistant Professor; verify rank before display)",
+      "institution": "King Saud University",
+      "department": "College of Computer and Information Sciences",
+      "areas": [
+        "malicious-domain detection",
+        "machine learning",
+        "blockchain applications",
+        "e-learning adoption"
+      ],
+      "profile_url": "https://faculty.ksu.edu.sa/en/aalhogail",
+      "profile_status": "institution-verified"
+    },
+    {
+      "id": "person-norah-alsuqayq",
+      "name": "Norah Alsuqayq",
+      "orcid": "0009-0001-6801-0411",
+      "areas": [
+        "phishing website detection",
+        "feature selection",
+        "SHAP",
+        "explainable AI"
+      ],
+      "profile_status": "publication-linked-only",
+      "institution": null,
+      "source_url": "https://link.springer.com/article/10.1007/s44443-026-01281-6"
+    },
+    {
+      "id": "person-saida-farhat",
+      "name": "Saida Farhat",
+      "orcid": "0000-0002-0934-3224",
+      "areas": [
+        "intrusion detection",
+        "multi-model systems",
+        "interpretability"
+      ],
+      "profile_status": "publication-linked-only",
+      "institution": null,
+      "source_url": "https://dblp.org/rec/journals/ijisec/FarhatPBB25.html"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "opp-inria-video-generation-2026",
+      "title": "PhD Position F/M: Computer Vision / Deep Learning - Video Generation",
+      "type": "PhD",
+      "institution": "Inria, STARS team, Centre Inria d'Universite Cote d'Azur",
+      "location": "Sophia Antipolis, France",
+      "contact": "Antitza Dantcheva",
+      "salary": "EUR 2300 gross/month",
+      "duration": "3 years",
+      "start_date": "2027-01-01",
+      "deadline": "2026-12-06",
+      "summary": "Synthetic video generation for automated visual learning; controllable human-centric generation, learning from synthetic data, and joint generation/deepfake detection.",
+      "official_url": "https://recrutement.inria.fr/public/classic/en/offres/2026-10684",
+      "discovery_url": "https://www.phdscanner.com/phd-vacancies/standard",
+      "verification_status": "official-employer-page-verified",
+      "last_verified": "2026-11-08"
+    },
+    {
+      "id": "opp-gothenburg-arctic-rs-2026",
+      "title": "Doctoral student in Physical Geography: Remote Sensing of Arctic Landscape Change",
+      "type": "PhD",
+      "institution": "University of Gothenburg, Department of Earth Sciences",
+      "location": "Gothenburg, Sweden",
+      "contact": "Jakob Assmann (staff profile; confirm individual vacancy contact before displaying supervisor relationship)",
+      "reference": "PAR 2026/778",
+      "deadline": "2026-12-18",
+      "summary": "Remote sensing of Arctic landscape change. The discovery page describes use of drone data, satellite imagery, and machine-learning/AI methods; verify all project details on the individual university announcement before public release.",
+      "official_url": "https://www.gu.se/en/work-at-the-university-of-gothenburg/vacancies",
+      "discovery_url": "https://www.phdscanner.com/phd-vacancies/standard",
+      "verification_status": "official-vacancy-list-verified; individual detail-page enrichment required",
+      "last_verified": "2026-11-08"
+    },
+    {
+      "id": "opp-liu-vr-privacy-2027",
+      "title": "PhD student in Computer Science with focus on cybersecurity and privacy",
+      "type": "PhD",
+      "institution": "Linkoping University, Department of Computer and Information Science",
+      "location": "Linkoping, Sweden",
+      "contact": "Niklas Carlsson",
+      "reference": "IDA-2026-00324",
+      "deadline": "2027-01-06",
+      "summary": "Research on privacy and cybersecurity in immersive and networked systems, including privacy leakage from VR motion/gaze data, traffic analysis, secure processing, and privacy-aware resource optimisation.",
+      "official_url": "https://liu.se/en/work-at-liu/vacancies/30204",
+      "discovery_url": "https://www.phdscanner.com/phd-vacancies/standard",
+      "verification_status": "official-employer-page-verified",
+      "last_verified": "2026-11-08"
+    },
+    {
+      "id": "opp-liu-energy-cyber-2026",
+      "title": "PhD Position in Cybersecurity for Decentralised Energy Systems",
+      "type": "PhD",
+      "institution": "Linkoping University, Department of Computer and Information Science, Cybersecurity",
+      "location": "Linkoping, Sweden",
+      "contacts": [
+        "Mikael Asplund",
+        "Zeeshan Afzal"
+      ],
+      "reference": "IDA-2026-00322",
+      "deadline": "2026-11-30",
+      "summary": "Research to improve security and resilience of decentralised critical infrastructure and power grids using trustworthy AI-supported methods.",
+      "official_url": "https://web103.reachmee.com/ext/I011/853/job?job_id=30209&lang=UK&site=7&validator=d7a66c13be778ef950c393a904293789",
+      "discovery_url": "https://www.phdscanner.com/phd-vacancies/standard",
+      "verification_status": "official-employer-page-verified",
+      "last_verified": "2026-11-08"
+    },
+    {
+      "id": "opp-lund-program-transform-2026",
+      "title": "Doctoral student in Computer Science with focus on program transformation",
+      "type": "PhD",
+      "institution": "Lund University, Department of Computer Science, Faculty of Engineering",
+      "location": "Lund, Sweden",
+      "contact": "Christoph Reichenbach",
+      "reference": "PA2026/3215",
+      "published": "2026-11-06",
+      "deadline": "2026-11-27",
+      "summary": "Program transformation and software evolution, including guardrails for refactoring and reducing unintended behavioural changes caused by developers or large language models.",
+      "official_url": "https://lu.varbi.com/en/what%3Ajob/jobID%3A986999/iframeEmbedded%3A0/where%3A4",
+      "discovery_url": "https://www.phdscanner.com/phd-vacancies/standard",
+      "verification_status": "official-employer-page-verified",
+      "last_verified": "2026-11-08"
+    }
+  ],
+  "journals": [
+    {
+      "id": "journal-jksuci",
+      "title": "Journal of King Saud University - Computer and Information Sciences",
+      "publisher": "Springer Nature Switzerland AG (latest publisher identified by ISSN Portal and DOAJ records; historical Elsevier period ended before the current Springer period)",
+      "owner": "King Saud University",
+      "online_issn": "2213-1248",
+      "linking_issn": "1319-1578",
+      "scope": [
+        "computer vision",
+        "image processing",
+        "information security",
+        "machine learning",
+        "network security",
+        "software engineering",
+        "data mining",
+        "IoT",
+        "robotics"
+      ],
+      "official_url": "https://cs.ksu.edu.sa/en/jksuci/about/aimsandscope",
+      "publisher_history_note": "The King Saud University page still references Elsevier. Current ISSN Portal and DOAJ records identify Springer Nature as the latest publisher. Show this provenance note rather than silently presenting the older university page as current publisher evidence.",
+      "open_access": "DOAJ identifies open-access publishing from 2025; confirm licence and article-level terms on the current publisher page.",
+      "peer_review": "DOAJ record describes double-anonymous peer review.",
+      "apc_note": "DOAJ lists charges up to EUR 1,790 with a waiver policy as of its 2026 record. Recheck the current publisher APC page before displaying a fee as current.",
+      "issn_portal_url": "https://publishers.issn.org/resource/ISSN/2213-1248",
+      "doaj_url": "https://doaj.org/toc/2213-1248",
+      "status": "scope-verified; publisher-history-cross-checked",
+      "caution": "Do not populate editor names, review duration, acceptance rate, or impact metrics without current official sources."
+    },
+    {
+      "id": "journal-itc",
+      "title": "Information Technology and Control",
+      "owner": "Kaunas University of Technology",
+      "frequency": "Quarterly",
+      "open_access": "Open access; CC BY 4.0 stated by journal",
+      "apc": "EUR 1000 as of 2025-09-01 per journal page; recheck before display",
+      "official_url": "https://itc.ktu.lt/index.php/ITC/about",
+      "status": "official-profile-verified"
+    },
+    {
+      "id": "journal-ieee-access",
+      "title": "IEEE Access",
+      "publisher": "IEEE",
+      "model": "Multidisciplinary, online-only, gold open access; continuous publication; binary accept/reject process per official about page",
+      "apc": "APC applies; current amount must be fetched from official APC page",
+      "official_url": "https://ieeeaccess.ieee.org/about/",
+      "status": "official-profile-verified"
+    },
+    {
+      "id": "journal-frontiers-ai",
+      "title": "Frontiers in Artificial Intelligence",
+      "eissn": "2624-8212",
+      "sections": [
+        "Machine Learning",
+        "Pattern Recognition",
+        "Computational Linguistics and Natural Language Processing",
+        "Logic and Reasoning in AI",
+        "Technology and Law"
+      ],
+      "official_url": "https://www.frontiersin.org/journals/artificial-intelligence/about",
+      "status": "official-profile-verified"
+    },
+    {
+      "id": "journal-ijisec",
+      "title": "International Journal of Information Security",
+      "publisher": "Springer Nature journal page",
+      "official_url": "https://link.springer.com/journal/10207",
+      "status": "official-page-linked; profile enrichment required"
+    },
+    {
+      "id": "journal-vfast-vtse",
+      "title": "VFAST Transactions on Software Engineering",
+      "issn": "2309-3978",
+      "official_url": "https://vfast.org/journals/index.php/VTSE",
+      "status": "journal-site-linked; fee/indexing/policy checks required"
+    },
+    {
+      "id": "journal-dsm",
+      "title": "Data Science and Management",
+      "publisher": "Elsevier / ScienceDirect",
+      "official_url": "https://www.sciencedirect.com/journal/data-science-and-management",
+      "status": "official-page-linked; profile enrichment required"
+    }
+  ],
+  "conferences": [
+    {
+      "id": "conf-acmmm-2026",
+      "name": "ACM Multimedia 2026",
+      "location": "Rio de Janeiro, Brazil",
+      "event_start": "2026-11-10",
+      "event_end": "2026-11-14",
+      "status_as_of": "2026-11-08",
+      "submission_status": "main paper submission closed; confirm workshops/registration on official site",
+      "official_url": "https://www.acmmm.org/2026/"
+    },
+    {
+      "id": "conf-neurips-2026",
+      "name": "NeurIPS 2026",
+      "location": "Sydney, Australia",
+      "event_start": "2026-12-06",
+      "event_end": "2026-12-12",
+      "submission_status": "main paper submission cycle passed; programme/registration information on official schedule",
+      "official_url": "https://neurips.cc/Conferences/2026/Dates"
+    },
+    {
+      "id": "conf-ieee-bigdata-2026",
+      "name": "IEEE International Conference on Big Data 2026",
+      "event_start": "2026-12-14",
+      "event_end": "2026-12-17",
+      "submission_deadline": "2026-08-21",
+      "notification": "2026-10-24",
+      "camera_ready_and_main_author_registration": "2026-11-14",
+      "workshop_author_registration": "2026-11-26",
+      "submission_status": "full-paper submission closed; accepted-author tasks remain subject to official schedule",
+      "official_url": "https://bigdataieee.org/BigData2026/important-dates/"
+    }
+  ],
+  "discovery_providers": [
+    {
+      "name": "Crossref",
+      "purpose": "DOI and bibliographic metadata",
+      "docs": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+      "access_note": "Public REST API; Crossref says no sign-up required."
+    },
+    {
+      "name": "OpenAlex",
+      "purpose": "Works, authors, institutions, sources, topics",
+      "docs": "https://docs.openalex.org/"
+    },
+    {
+      "name": "Semantic Scholar",
+      "purpose": "Paper and author graph, citations and related-paper discovery",
+      "docs": "https://api.semanticscholar.org/api-docs/graphs"
+    },
+    {
+      "name": "DBLP",
+      "purpose": "Computer-science publication, author, and venue search",
+      "docs": "https://dblp.org/faq/How%2Bto+use+the+dblp+search%2BAPI.html"
+    },
+    {
+      "name": "arXiv",
+      "purpose": "Repository preprints; preserve versions",
+      "docs": "https://info.arxiv.org/help/api/index.html"
+    },
+    {
+      "name": "IEEE Xplore",
+      "purpose": "IEEE journal and proceedings records",
+      "docs": "https://developer.ieee.org/",
+      "access_note": "Use approved API access; do not scrape search pages."
+    },
+    {
+      "name": "ORCID",
+      "purpose": "Researcher identity and author-claimed record linking",
+      "docs": "https://info.orcid.org/documentation/api-tutorials/api-tutorial-read-data-on-a-record/"
+    }
+  ]
+}

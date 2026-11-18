@@ -1,0 +1,29 @@
+✔ public catalogs load anonymously; protected APIs reject missing and invalid sessions (2427.7292ms)
+✔ registration hashes passwords, ignores privileged roles, and queues verification mail (1957.6031ms)
+✔ registration email verification is single use; password reset invalidates existing sessions (1571.0329ms)
+✔ cross-origin writes and administrative privilege escalation are denied (59.5389ms)
+✔ expired JWTs and production demo logins are rejected (65.0911ms)
+✔ create manuscript, reject missing file/submission, upload private version, and enforce ownership (516.1589ms)
+✔ journal-scoped editor permissions, state transitions, reviewer acceptance and review submission (690.2789ms)
+✔ revision requires a new version with response; publication requires human review and publisher access (1132.4167ms)
+✔ AI chat persists, isolates users, and sends authorized context only when selected (119.8176ms)
+✔ a second assigned reviewer cannot read another reviewer’s confidential comments (107.8527ms)
+✔ screening requires consent, anchors corrections, preserves originals, and exports valid documents (366.3861ms)
+✔ corrections never cascade into new matches and reject overlapping edits (2.8089ms)
+✔ Gemini missing configuration and provider failures remain explicit; transient failures retry (562.6805ms)
+✔ projects, tasks, milestones, team feedback and ownership persist (406.8492ms)
+✔ library notes and writing studio persist and export; foreign records are inaccessible (230.8523ms)
+✔ course quiz evaluation is server-side and progress remains persistent (197.9929ms)
+✔ conference bookmarks, application tracking and idempotent deadline notifications (284.9175ms)
+✔ notification ownership, read-all, opt-out and email atomic claim/retries (339.1466ms)
+✔ invalid files are rejected before storage (2.0379ms)
+✔ email attempts exhaust at five and stale worker leases are recovered (252.5803ms)
+✔ database disconnect returns explicit service-unavailable status (70.179ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 15834.0851

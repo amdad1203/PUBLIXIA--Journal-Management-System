@@ -1,0 +1,38 @@
+
+> publixia@1.0.0 test
+> node --test --test-concurrency=1 tests/*.test.js
+
+✔ manuscript subject takes priority and three research profiles select distinct standards (1.2784ms)
+✔ OpenAlex normalizes publication metadata and reconstructs abstracts (1.5873ms)
+✔ provider failure returns explicit service error without fabricated records (0.9978ms)
+✔ targeted email delivery only sends explicitly selected jobs (2011.9536ms)
+✔ authority criteria require admin, validate input and preserve version history (105.4049ms)
+✔ public catalogs load anonymously; protected APIs reject missing and invalid sessions (35.5736ms)
+✔ registration hashes passwords, ignores privileged roles, and queues verification mail (1440.5978ms)
+✔ registration email verification is single use; password reset invalidates existing sessions (989.9449ms)
+✔ cross-origin writes and administrative privilege escalation are denied (24.5463ms)
+✔ expired JWTs and production demo logins are rejected (24.6587ms)
+✔ create manuscript, reject missing file/submission, upload private version, and enforce ownership (257.4597ms)
+✔ journal-scoped editor permissions, state transitions, reviewer acceptance and review submission (435.426ms)
+✔ revision requires a new version with response; publication requires human review and publisher access (443.7284ms)
+✔ AI chat persists, isolates users, and sends authorized context only when selected (38.9388ms)
+✔ a second assigned reviewer cannot read another reviewer’s confidential comments (35.3773ms)
+✔ screening requires consent, anchors corrections, preserves originals, and exports valid documents (144.9463ms)
+✔ corrections never cascade into new matches and reject overlapping edits (0.7286ms)
+✔ Gemini missing configuration and provider failures remain explicit; transient failures retry (518.1862ms)
+✔ projects, tasks, milestones, team feedback and ownership persist (205.5354ms)
+✔ library notes and writing studio persist and export; foreign records are inaccessible (132.8449ms)
+✔ course quiz evaluation is server-side and progress remains persistent (62.2009ms)
+✔ conference bookmarks, application tracking and idempotent deadline notifications (155.3524ms)
+✔ notification ownership, read-all, opt-out and email atomic claim/retries (229.0233ms)
+✔ invalid files are rejected before storage (1.0608ms)
+✔ email attempts exhaust at five and stale worker leases are recovered (135.375ms)
+✔ database disconnect returns explicit service-unavailable status (41.4979ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 26
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10566.5743

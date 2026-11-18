@@ -1,0 +1,143 @@
+Web Technologies Final Project Evaluation Rubric
+Total: 40 marks
+No. Evaluation criterion Max.
+marks Excellent Good Satisfactory Needs improvement How to assess
+1 Problem definition and
+feature completeness 5
+5: All major planned
+features work correctly;
+solution addresses the stated
+problem.
+4: Most features work,
+with minor omissions.
+2–3: Some important
+features are incomplete.
+0–1: Many features are
+missing or
+nonfunctional.
+Compare stated objectives and
+requirements with the actual working
+application.
+2 UI/UX design and
+responsive layout 6
+6: Consistent, attractive,
+intuitive, and responsive
+interface.
+5: Good design with
+minor usability or
+responsiveness issues.
+3–4: Usable interface with
+noticeable design or layout
+problems.
+0–2: Poor layout,
+difficult navigation, or
+major responsiveness
+problems.
+Inspect page structure, styling,
+navigation, readability, usability, and
+responsiveness on different screen
+sizes.
+3
+JavaScript programming,
+DOM/UI interaction, JSON,
+Fetch API and
+asynchronous programming
+12
+11–12: Correct
+programming logic,
+interactive behavior,
+state/UI updates, and
+appropriate data handling;
+relevant asynchronous
+operations work correctly.
+9–10: Most functionality
+works, with minor
+logical or data-handling
+errors.
+6–8: Basic interactions work,
+but several features or data
+operations are incomplete.
+0–5: Limited working
+functionality or
+substantial
+programming errors.
+Test event handling, functions,
+application logic, DOM manipulation
+or React state, arrays/objects, JSON,
+and API requests where applicable.
+4 Database design and
+MongoDB 5
+5: Appropriate database
+design; required CRUD
+operations and persistent
+storage work correctly.
+4: Database works with
+minor design or
+operation issues.
+3–2: Partial database
+integration or incomplete
+CRUD operations.
+0–1: Major database
+problems or little
+working persistence.
+Inspect collections/documents, data
+organization, database connectivity,
+CRUD operations, and whether data
+remains stored.
+5
+System integration,
+validation and error
+handling
+5
+5: Components integrate
+correctly; input validation
+and errors are handled
+appropriately.
+4: Integration works with
+minor edge-case issues.
+2–3: Some integration
+failures, weak validation, or
+incomplete error handling.
+0–1: Major integration
+failures or little
+meaningful validation.
+Test frontend/backend communication
+where applicable, invalid inputs, failed
+requests, empty results, and other
+relevant error scenarios.
+6 Code quality and testing 3
+3: Readable, organized,
+maintainable code with
+meaningful testing.
+2: Generally
+understandable code with
+limited testing or minor
+organization issues.
+1: Poor organization or
+minimal testing.
+0: Very poor code
+quality with no credible
+testing evidence.
+Review source code organization,
+naming, duplication, separation of
+concerns, and test cases or documented
+test results.
+7 Project demonstration and
+presentation 4
+4: Clear, organized
+demonstration of the
+working application and
+key features.
+3: Good demonstration
+with minor omissions.
+2-1: Basic demonstration
+with limited explanation.
+0–0.5: Incomplete or
+unclear demonstration.
+Observe the live demonstration and the
+clarity of the explanation of the
+project's main features.
+TOTAL 40 Project assessment only; Individual viva (10 marks) will be evaluated separately.
+
+-- 1 of 1 --
+

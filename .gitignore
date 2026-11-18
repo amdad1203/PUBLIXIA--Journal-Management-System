@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+uploads/
+deliverables/
+.local-data/
+test-results/
+*.log
+PRIVATE_SETUP.md
+PRIVATE_TEAM_CREDENTIALS.md
+PRIVATE_ALL_CREDENTIALS.md
+PRIVATE_PRESENTATION_ACCOUNTS.md

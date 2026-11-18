@@ -1,0 +1,32 @@
+{
+  "created": {
+    "User": 6
+  },
+  "reused": {},
+  "membershipsAdded": 3,
+  "errors": [],
+  "before": {
+    "users": 46,
+    "journals": 21,
+    "manuscripts": 85,
+    "reviews": 74
+  },
+  "editorVisibleManuscripts": 25,
+  "existingStages": {
+    "copyediting": 1,
+    "draft": 2,
+    "published": 15,
+    "submitted": 1,
+    "typesetting": 2,
+    "proofreading": 1,
+    "revision": 1,
+    "screening": 1,
+    "under_review": 1
+  },
+  "after": {
+    "users": 52,
+    "journals": 21,
+    "manuscripts": 85,
+    "reviews": 74
+  }
+}

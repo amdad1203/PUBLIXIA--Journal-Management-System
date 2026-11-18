@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-11-15T05:26:24.696Z",
+  "readOnly": true,
+  "endpoints": [
+    {
+      "role": "editor",
+      "url": "/operations/editor",
+      "status": 200
+    },
+    {
+      "role": "editor",
+      "url": "/editorial/assignments",
+      "status": 200
+    },
+    {
+      "role": "editor",
+      "url": "/operations/journals",
+      "status": 200
+    },
+    {
+      "role": "admin",
+      "url": "/operations/users",
+      "status": 200
+    },
+    {
+      "role": "admin",
+      "url": "/operations/journals",
+      "status": 200
+    },
+    {
+      "role": "admin",
+      "url": "/operations/services",
+      "status": 200
+    }
+  ],
+  "supplementalManuscripts": 6,
+  "integrity": "passed",
+  "counts": {
+    "users": 52,
+    "reviewers": 8,
+    "manuscripts": 91,
+    "reviews": 80
+  }
+}
